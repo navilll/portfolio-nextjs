@@ -34,7 +34,6 @@ const Experience = () => {
                     <div
                         key={index}
                         initial="hidden"
-                        whileInView="visible"
                         viewport={{ once: false, amount: 0.3}}
                         transition={{ duration: 1}}
                         className=' border border-[#A3099C] rounded-lg p-6 shadow-md

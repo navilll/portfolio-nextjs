@@ -1,5 +1,3 @@
-import React from "react"
-
 const Contact = () => {
   return (
     <div className="py-2 text-white bg-[#232325] h-auto" id="contact">
@@ -7,7 +5,7 @@ const Contact = () => {
             <div className="mx-auto px-4 md:px-9">
                 <div className=" flex items-center justify-between gap-8">
                     <div className="flex flex-col gap-4">
-                        <h2 className="text-2xl lg:text-3xl text-white">Let's
+                        <h2 className="text-2xl lg:text-3xl text-white">Lets
                             <span> Connect</span>
                         </h2>
                         <p className="text-gray-500">
@@ -17,7 +15,6 @@ const Contact = () => {
                 </div>
             </div>
             <form
-                    action=""
                     method="POST"
                     className=" max-w-6xl p-5 md:p-12"
                     id="form"
@@ -50,7 +47,6 @@ const Contact = () => {
                 >
                 Send Message
                 </button>
-                
             </form>
         </div>
     </div>
