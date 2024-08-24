@@ -8,7 +8,7 @@ const About = () => {
         <div className="flex sm:flex-row flex-col-reverse items-center md:gap-6 px-10 max-w-6xl mx-auto">
             <div>
                 <div className="w-[350px] h-full mt-4">
-                    <Image alt='About Us' src={about} className='rounded-xl h-[300px] filter brigtness-50'/>
+                    <Image alt='About Us' src={about} className='rounded-xl h-[300px] filter brigtness-50' loading="eager" priority={true}/>
                 </div>
             </div>
 

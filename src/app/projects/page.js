@@ -28,6 +28,7 @@ const Projects = () => {
                     width={400}
                     height={300}
                     alt="Card Image"
+                    loading="eager" priority={true}
                     className="object-cover w-full h-48 sm:h-64"
                     />
                     <div className="p-4 sm:p-6">
@@ -47,6 +48,7 @@ const Projects = () => {
                     height={300}
                     alt="Card Image"
                     className="object-cover w-full h-48 sm:h-64"
+                    loading="eager" priority={true}
                     />
                     <div className="p-4 sm:p-6">
                     <h3 className="text-lg font-semibold text-white">Ranger Renovation</h3>
@@ -64,6 +66,7 @@ const Projects = () => {
                     height={300}
                     alt="Card Image"
                     className="object-cover w-full h-48 sm:h-64"
+                    loading="eager" priority={true}
                     />
                     <div className="p-4 sm:p-6">
                         <h3 className="text-lg font-semibold text-white">Cybersurace.net</h3>
